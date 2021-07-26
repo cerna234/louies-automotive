@@ -1,0 +1,506 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden ;
+    
+}
+
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("repairLanding.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+header,nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    background-color: rgb(29, 29, 29);
+    color: white;
+   
+}
+#logo{
+    font-size: 15px;
+    position: relative;
+    top: 4vh;
+    text-decoration: none;
+    color: rgb(250, 36, 36);
+    text-shadow: 0px -0.5px 0px rgba(218, 217, 217, 0.479), 0px 0.5px 0px rgba(218, 217, 217, 0.479) ,-0.5px 0px 0px rgba(218, 217, 217,0.479), 0.5px 0px 0px rgba(218, 217, 217,0.479)  ;
+    
+}
+#right{
+   width: 40%;
+}
+#left{
+    text-align: center;
+    width: 60%;
+}
+
+#navButton{
+    background-color: rgb(172, 9, 9);
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 5vh;
+    color: rgb(212, 212, 212);
+    font-size: 9px;
+    font-family: 'Timmana', sans-serif;
+}
+#subnav{
+    width: 70%;
+    height: 5vh;
+    background-color: red;
+    position: relative;
+    left: 15%;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#subnav a{
+    padding-top: 1vh ;
+    text-decoration: none;
+    color: white;
+    font-family: 'Timmana', sans-serif;
+}
+
+#line{
+    height: 100%;
+    width: 0.2vw;
+    background-color: rgb(65, 64, 64);
+}
+
+#landingText{
+    width: 50%;
+    height: 30vh;
+   
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+
+#landingText h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Timmana', sans-serif;
+}
+#landingText h3{
+    color: rgba(199, 199, 199, 0.815);
+    font-size: 20px;
+    font-family: 'Timmana', sans-serif;
+}
+
+#servicesNav{
+    width: 90%;
+    height: 15vh;
+    background-color: red;
+    position: relative;
+    left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#section{
+    width: 33.3%;
+    text-align: center;
+   
+}
+#section a{
+    width: 50%;
+    font-family: 'Timmana', sans-serif;
+    position: relative;
+    top: 5vh ;
+    font-size: 12px;
+    color: rgb(251, 249, 249);
+    font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+   
+}
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(253, 253, 253);
+    position: absolute;
+    z-index: -1;
+    
+}
+
+
+
+
+
+
+#numberAddress{
+    width: 90%;
+    left: 5%;
+    height: 50vh;
+   
+    position: relative;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+   
+}
+
+#seperate{
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    z-index: 12;
+    position: relative;
+    top: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#seperate h2,#text h2,#partners h2{
+    font-size: 12px;
+    color: red;
+    font-family: 'Timmana', sans-serif;
+}
+
+#partners h2{
+    font-size: 30px;
+}
+
+#seperate p,#text p,#partners p{
+    font-size: 10px;
+    color: rgb(141, 140, 140);
+    font-family: 'Timmana', sans-serif;
+    width: 70%;
+    left: 15%;
+    position: relative;
+}
+#partners p{
+    color: rgb(235, 235, 235);
+}
+
+#CommitmentImg{
+
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px  5px rgba(0, 0, 0, 0.308);
+  z-index: 1;
+    background-image: url("Screen\ Shot\ 2021-07-18\ at\ 10.47.52\ PM.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 5vh;
+
+}
+
+#MeetUsTitle{
+    position: relative;
+    top: 23vh;
+    left: 25vw;
+    width: 20%;
+    color: red;
+    font-size: 20px;
+}
+
+#meetUs{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(255, 255, 255);
+    bottom: 20vh;
+    position: relative;
+    font-family: 'Timmana', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+
+#images{
+
+    position: relative;
+
+    border: 4px solid rgba(255, 0, 0, 0.897);
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 20vh;
+    top: 5vh;
+    left: 25%;
+}
+
+#text{
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0);
+    text-align:center;
+}
+
+#inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    
+}
+
+#img1{
+    width: 30vw;
+    height: 20vh;
+    position: relative;
+    top: 8vh;
+    left: 2vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.424);
+}
+#img2{
+    position: relative;
+    width: 35vw;
+    height: 20vh;
+    right: 0vw;
+    bottom: 2vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
+   
+}
+
+
+#partners{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 10vh;
+}
+
+#partnerLogoTech{
+    width: 50%;
+    height: 15%;
+    position: relative;
+    left: 25%;
+}
+
+#partnerLogoSynchrony{
+    width: 50%;
+    height: 7%;
+    position: relative;
+    left: 25%;
+}
+
+footer{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    bottom: 14vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#viewMore{
+   
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#viewMore h3,#phoneEmail h3{
+    font-family: 'Timmana', sans-serif;
+    color: red;
+    font-size: 15px;
+}
+#viewMore a, #phoneEmail a{
+    color: white;
+    font-family: 'Timmana', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+#phoneEmail{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    top: 1vh;
+    text-align: center;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+    
+    #meetUs{
+        height: 70vh;
+    }
+    #images{
+
+        position: relative;
+    
+        border: 4px solid rgba(255, 0, 0, 0.897);
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        height: 20vh;
+        left: -7vw;
+        
+     
+    
+        
+    
+    
+    }
+
+    #text{
+        position: relative;
+        width: 50%;
+        height: 30vh;
+        top: 10vh;
+        
+    
+        
+    }
+
+    #inner{
+        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        height: 40vh;
+        position: relative;
+        top: 10vh;
+        
+    
+
+    }
+
+    #MeetUsTitle{
+        position: relative;
+        top: -1vh;
+        left: 13vw;
+        width: 20%;
+        
+        
+    }
+
+    #CommitmentImg{
+
+        width: 50%;
+        height: 100%;
+        z-index: 1;
+        left: 50%;
+        position: relative;
+    }
+
+    #seperate{
+        width: 50%;
+        left: 0%;
+        position: relative;
+        top: -17vh;
+    }
+
+  }
+
+  @media only screen and (min-width: 700px){
+
+    #images{
+        width: 19%;
+       
+    }
+    #seperate h2,#text h2,#partners h2{
+        font-size: 20px;
+        
+    }
+    
+    #partners h2{
+        font-size: 30px;
+    }
+    
+    #seperate p,#text p,#partners p{
+        font-size: 13px;
+       
+    }
+
+    #meetUs{
+        background-color: none;
+    }
+
+    #numberAddress{
+        width: 90%;
+        left: 5%;
+        height: 60vh;
+       
+        position: relative;
+        top: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgba(255, 0, 0, 0);
+       
+    }
+
+
+#CommitmentImg{
+
+   
+    box-shadow: 2px 2px  5px rgba(0, 0, 0, 0.308);
+    z-index: 1;
+    top: 10vh;
+    background-image: url("Screen\ Shot\ 2021-07-18\ at\ 10.47.52\ PM.png");
+    background-size: cover;
+    background-position: center;
+
+}
+#partnerLogoTech{
+    width: 30%;
+    height: 15%;
+    left: 35%;
+}
+
+#partnerLogoSynchrony{
+    width: 30%;
+    height: 7%;
+    left: 35%;
+}
+
+
+#partners h2{
+    font-size: 12px;
+    color: red;
+    font-family: 'Timmana', sans-serif;
+}
+
+#partners h2{
+    font-size: 30px;
+}
+
+#partners p{
+   
+    width: 50%;
+    left: 25%;
+    position: relative;
+}
+    
+
+  }
